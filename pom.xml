@@ -8,6 +8,36 @@
     <artifactId>jcasbin-mongo-adapter</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <name>jcasbin-mongodb-adapter</name>
+    <description>MongoDB policy storage, implemented as an adapter for jcasbin.</description>
+    <url>https://casbin.org/</url>
+    <inceptionYear>2021</inceptionYear>
+
+    <issueManagement>
+        <system>Github</system>
+        <url>https://github.com/zzl221000/jcasbin-mongo-adapter/issues</url>
+    </issueManagement>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/zzl221000/jcasbin-mongo-adapter</url>
+        <connection>scm:git@github.com/zzl221000/jcasbin-mongo-adapter.git</connection>
+        <developerConnection>scm:git:github.com/zzl221000/jcasbin-mongo-adapter.git</developerConnection>
+    </scm>
+
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
+
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
